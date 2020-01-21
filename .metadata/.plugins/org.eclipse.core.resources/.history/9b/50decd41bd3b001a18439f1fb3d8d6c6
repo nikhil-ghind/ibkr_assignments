@@ -1,0 +1,8 @@
+package def;
+
+public class FileHandling {
+	public static void main(String args[]) throws Exception {
+		File f = new File("D:\\File.txt");
+		RandomAccessFile raf = new RandomAccessFile();
+	}
+}

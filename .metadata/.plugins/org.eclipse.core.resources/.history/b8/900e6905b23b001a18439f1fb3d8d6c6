@@ -1,0 +1,24 @@
+package def;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class AssignmentOne {
+	public static void main(String[] args) {
+		//Person p1 = new Person("mohit","mohit@gmail.com","7021197094",1);
+		//This will generate false
+		//Person p2 = new Person("chirag","chirag@gmail.com","7744824253",2);
+		//This will generate true
+		//Person p2 = new Person("mohit","mohit@gmail.com","7021197094",1);
+		//System.out.println(p1.equals(p2));
+		Set<Person> hs = new HashSet();
+		hs.add(new Person("nikhil","ghind20@gmail.com","7021197094",1));
+		hs.add(new Person("chirag","chirag@gmail.com","7744824253",2));
+		hs.add(new Person("nikhil","ghind20@gmail.com","7021197094",1));
+		
+		
+		Iterator<Person> it = hs.iterator();
+		
+	}
+
+}

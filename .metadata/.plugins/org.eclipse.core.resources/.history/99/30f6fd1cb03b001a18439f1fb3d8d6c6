@@ -1,0 +1,10 @@
+package def;
+
+public class AssignmentOne {
+	public static void main(String[] args) {
+		Person p1 = new Person("mohit","mohit@gmail.com","7021197094",1);
+		Person p2 = new Person("mohit","mohit@gmail.com","7021197094",1);
+		System.out.println(p1.equals(p2));
+	}
+
+}

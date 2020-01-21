@@ -1,0 +1,12 @@
+package def;
+
+import java.util.ArrayList;
+
+public class AssignmentOne {
+	public static void main(String[] args) {
+		ArrayList<Person> arr = new ArrayList<>();
+		arr.add(new Person("mohit","mohit@gmail.com","7021197094",1));
+		arr.add(new Person("chirag","chirag@gmail.com","7744824253",2));
+	}
+
+}

@@ -1,0 +1,20 @@
+package def;
+
+public class PersonWithEquals {
+	public String name;
+	public String email;
+	public String phoneNumber;
+	
+	Person(String name,String email,String phoneNumber){
+		this.name = name;
+		this.email = email;
+		this.phoneNumber = phoneNumber;
+	}
+	Person(){
+		this.name = "Nikhil";
+		this.email = "ghind20@gmail.com";
+		this.phoneNumber = "7021197094";
+	}
+	
+}
+

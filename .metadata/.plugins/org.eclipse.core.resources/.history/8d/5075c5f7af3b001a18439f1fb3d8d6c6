@@ -1,0 +1,11 @@
+package def;
+
+import java.util.ArrayList;
+
+public class AssignmentOne {
+	public static void main(String[] args) {
+		Person p1 = new Person("mohit","mohit@gmail.com","7021197094",1);
+		Person p2 = new Person("chirag","chirag@gmail.com","7744824253",2);
+	}
+
+}

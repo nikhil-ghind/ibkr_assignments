@@ -1,0 +1,11 @@
+package Factory;
+
+public class Cat extends Animal{
+	public String a;
+	public Cat() {
+		a = "Cat";
+	}
+	public void makeSound() {
+		System.out.println("Meow");
+	}
+}
